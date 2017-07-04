@@ -1,19 +1,20 @@
-# pux-starter-app
+# pux-starter-app-material-ui
 
-The [starter app](http://github.com/alexmingoia/pux-starter-app) is a skeleton
+This small example project demonstrates how to use [material-ui](http://www.material-ui.com) 
+from [purescript-pux](http://purescript-pux.org/) .
+
+This project is based on [starter app](http://github.com/alexmingoia/pux-starter-app), which is a skeleton
 Pux project configured with webpack and supporting hot-reload for rapid
 development.
 
-For isomorphic rendering and routing a more complex configuration is available in the
-[`isomorphic`](https://github.com/alexmingoia/pux-starter-app/tree/isomorphic) branch.
 
 ## Installation
 
 Clone the repository and run `npm install` to get started:
 
 ```sh
-git clone git://github.com/alexmingoia/pux-starter-app.git my-awesome-pux-app
-cd my-awesome-pux-app
+git clone git://github.com/shybyte/pux-starter-app-material-ui
+cd pux-starter-app-material-ui
 npm install
 npm start
 ```
@@ -25,12 +26,8 @@ After compiling the app should be available at `http://localhost:8080`.
 - `src`: Application source code.
   - `src/App/Config.js`: Configuration values.
   - `src/App/Config.purs`: Configuration type.
-  - `src/App/Events.purs`: Application event type and foldp function.
-  - `src/App/Routes.purs`: Routes.
-  - `src/App/State.purs`: Application state type and init function.
-  - `src/App/View/Homepage.purs`: Home page.
-  - `src/App/View/Layout.purs`: App layout.
-  - `src/App/View/NotFound.purs`: 404 page.
+  - `src/App/MaterialUi.js`: Javascript files for the material ui bindings.
+  - `src/App/MaterialUi.purs`: Purescript files for the material ui bindings.
   - `src/Main.purs`: PureScript entry point.
 - `static`: Static files served with application.
 - `support`: Support files for building.
